@@ -3,7 +3,7 @@
 To start, always make sure your file is clean and not modified.
 Paste this into your command prompt:
 ```
-osascript -e 'quit app "slack"';curl 'https://raw.githubusercontent.com/valiander/slackdark/master/undo' > /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
+osascript -e 'quit app "slack"';curl 'https://raw.githubusercontent.com/valiander/slackdark/master/reset' > /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
 ```
 This command will quit slack and overwrite the file needed to change your css entries.
 >This will also return your slack app back to normal, aside from the theme changes.
