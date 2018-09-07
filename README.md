@@ -15,4 +15,9 @@ osascript -e 'quit app "slack"';curl 'https://raw.githubusercontent.com/valiande
 This is going to quit slack and append the changes to the end of the file. 
 >Its important to quit and restart slack every time we change this file so that the changes take effect.
 
+
+Last step is to paste this into a chat with yourself or slackbot, and click "switch sidebar theme"
+```
+#3b383b,#b8cbe6,#ffffff,#ffffff,#4A5664,#ffffff,#00f7ff,#3b383b
+```
 Let me know if there are any issues that you have!
