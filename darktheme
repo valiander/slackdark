@@ -1,0 +1,61 @@
+// First make sure the wrapper app is loaded
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Then get its webviews
+  let webviews = document.querySelectorAll(".TeamView webview");
+ 
+  // Fetch our CSS in parallel ahead of time
+  const cssPath = 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css';
+  let cssPromise = fetch(cssPath).then(response => response.text());
+ 
+   let customCustomCSS = `
+   :root {
+     --primary: #B1BCC7;
+     --accent: #303030;
+     --text: #B1BCC7;
+     --background: #303030;
+     --background-elevated: #404040;
+ 
+     --background-hover: lighten(#3B4048, 10%);
+     --background-light: #AAA;
+     --background-bright: #303030;
+ 
+     --border-dim: #666;
+     --border-bright: #ffffff;
+ 
+     --text-bright: #FFFFFF;
+     --text-dim: #555c69;
+     --text-special: #FFFFFF;
+     --text-accent: var(--text-bright);
+ 
+     --scrollbar-background: #000;
+     --scrollbar-border: #FF0015;
+   }
+   `
+ 
+  // Insert a style tag into the wrapper view
+  cssPromise.then(css => {
+    let s = document.createElement('style');
+    s.type = 'text/css';
+    s.innerHTML = css + customCustomCSS;
+    document.head.appendChild(s);
+  });
+ 
+  // Wait for each webview to load
+  webviews.forEach(webview => {
+    webview.addEventListener('ipc-message', message => {
+      if (message.channel == 'didFinishLoading')
+        // Finally add the CSS into the webview
+        cssPromise.then(css => {
+          let script = `
+                     let s = document.createElement('style');
+                     s.type = 'text/css';
+                     s.id = 'slack-custom-css';
+                     s.innerHTML = \`${css + customCustomCSS}\`;
+                     document.head.appendChild(s);
+                     `
+          webview.executeJavaScript(script);
+        })
+    });
+  });
+ }); 
