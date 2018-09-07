@@ -97,3 +97,4 @@ if (window.location.href !== 'about:blank') {
 
   init(resourcePath, mainModule, !isDevMode);
 }
+
