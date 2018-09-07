@@ -20,4 +20,13 @@ Last step is to paste this into a chat with yourself or slackbot, and click "swi
 ```
 #3b383b,#b8cbe6,#ffffff,#ffffff,#4A5664,#ffffff,#00f7ff,#3b383b
 ```
+
+>If you see the following error while trying to run this, delete slack and reinstall.
+```
+-bash: /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js: Permission denied
+```
+
+
+
+
 Let me know if there are any issues that you have!
