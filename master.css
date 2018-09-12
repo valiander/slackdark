@@ -844,7 +844,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--deleting { background: rgba(191, 54, 12, 0.6); }
 
-.c-message--standalone { border-color: rgba(84, 84, 84, 0.1); }
+.c-message--standalone { border-color: rgba(114, 114, 114, 0.1); }
 
 .c-message--unprocessed .c-message__body { animation: to-grey 50ms linear 10s forwards; }
 
