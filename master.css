@@ -1753,7 +1753,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .pinned_item .remove_pin:hover { color: #c7c7c7; }
 
-.pinned_item .pinned_message_text .pin_truncate_fade { background: #222; }
+.pinned_item .pinned_message_text .pin_truncate_fade { background: #8e8e8e; }
 
 .pinned_item.delete_mode { border-color: #bf360c !important; }
 
