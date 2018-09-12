@@ -828,9 +828,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred { background: rgba(114, 114, 114, 0.2); }
 
-.c-message--custom_response { background: rgba(0, 0, 0, 0.15); }
+.c-message--custom_response { background: rgba(114, 114, 114, 0.15); }
 
-.c-message--sli_highlight_negative, .c-message--ephemeral { background: rgba(0, 0, 0, 0.1); }
+.c-message--sli_highlight_negative, .c-message--ephemeral { background: rgba(114, 114, 114, 0.1); }
 
 .c-message--pinned .c-message__label__icon { color: #9e9e9e; }
 
@@ -940,7 +940,7 @@ ts-message.active .meta, ts-message.message--focus .meta, ts-message:hover .meta
 
 ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--focus .meta.msg_inline_file_preview_toggler a, ts-message:hover .meta.msg_inline_file_preview_toggler a { color: #949494 !important; }
 
-ts-message.is_pinned { background: rgba(0, 0, 0, 0.15); }
+ts-message.is_pinned { background: rgba(114, 114, 114, 0.15); }
 
 ts-message .timestamp { color: #949494; }
 
@@ -1014,9 +1014,9 @@ ts-message .internal_member_link { background: #222 !important; border: 0; color
 
 ts-message .internal_member_link:hover { color: #c7c7c7 !important; }
 
-ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
+ts-message.show_recap:not(.is_pinned) { background: rgba(114, 114, 114, 0.15); }
 
-ts-message.show_recap:not(.is_pinned):hover { background: rgba(0, 0, 0, 0.15); }
+ts-message.show_recap:not(.is_pinned):hover { background: rgba(114, 114, 114, 0.15); }
 
 .ephemeral.message .message_content { color: #e6e6e6; }
 
@@ -1753,7 +1753,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .pinned_item .remove_pin:hover { color: #c7c7c7; }
 
-.pinned_item .pinned_message_text .pin_truncate_fade { background: #222; }
+.pinned_item .pinned_message_text .pin_truncate_fade { background: #40c4ff; }
 
 .pinned_item.delete_mode { border-color: #bf360c !important; }
 
