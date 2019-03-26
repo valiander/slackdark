@@ -4099,7 +4099,7 @@ body:not(.loading) #team_menu.active { background: none !important; border-color
 
 .c-texty_input { border: none !important; }
 
-div.ql-editor { background: #303030; }
+div.ql-editor { background: #303030; color: #e6e6e6 }
 
 .p-threads_flexpane__header.p-flexpane_header__children { color: #e6e6e6 }
 
