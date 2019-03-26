@@ -4031,6 +4031,10 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
 
+.ql-editor.ql-blank { color: #e6e6e6; }
+
+.c-message__content { background: #222; }
+
 .c-search__results { background: #303030; }
 
 .c-search__tabs { background: #303030; }
@@ -4061,33 +4065,38 @@ body:not(.loading) #team_menu.active { background: none !important; border-color
 
 .c-channel_name__text--inline { color: #e6e6e6; }
 
-.c-virtual_list__item { background: #303030; }
+.c-virtual_list__item { background: #222; }
 
-.c-message_kit__background { background: #303030; }
+.c-message_kit__background { background: #222; }
 
 .p-threads_view_root { background: #303030; }
 
-.c-message_kit__message { background: #303030; }
+.c-message_kit__message { background: #222; }
 
-.c-message_kit__thread_message { background: #303030; }
+.c-message_kit__thread_message { background: #222; }
 
-.c-message_kit__thread_message--root { background: #303030; }
+.c-message_kit__thread_message--root { background: #222; }
 
 .p-threads_view { background: #303030; }
 
-.p-threads_view__default_background { background: #303030; }
+.p-threads_view__default_background { background: #222; }
 
 .p_threads_view_load_older_button { background: #303030; }
 
-.c-message_kit__background { background: #303030; }
+.c-message_kit__background { background: #222; }
 
-.c-message_kit__message { background: #303030; }
+.c-message { background: #222; }
 
-.c-message_kit__thread_message { background: #303030; }
+.c-message_kit__message { background: #222; }
+
+.c-message_list__day_divider { background: #222; }
+
+.c-message_kit__thread_message { background: #222; }
 
 .p-threads_view_reply { background: #303030; }
 
-div.p-message_input_field.c-texty_input--multi_line.c-texty_input.ql-container { background: #303030; }
+.p-message_input_field.c-texty_input--multi_line.c-texty_input.ql-container { background: #303030; border: none !important; }
+
+.c-texty_input { border: none !important; }
 
 div.ql-editor { background: #303030; }
-
