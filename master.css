@@ -4030,3 +4030,64 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+
+.c-search__results { background: #303030; }
+
+.c-search__tabs { background: #303030; }
+
+.c-tabs__tab_menu { background: #303030; }
+
+.p-search_filter__title:before { display: none !important; }
+
+.p-search_filter__title_text { color: #e6e6e6; background: none !important; }
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #303030; }
+
+body:not(.loading) #team_menu:hover { background: none !important; border-color: none !important; }
+
+body:not(.loading) #team_menu.active { background: none !important; border-color: none !important; }
+
+.p-flexpane_header { background: #303030; }
+
+.p-threads_flexpane__header { background: #303030; }
+
+.c-link--button { color: #e6e6e6; }
+
+.c-message_kit__file__meta__text { color: #e6e6e6; }
+
+.p-thread_participant_list { color: #e6e6e6; }
+
+.c-channel_name__text { color: #e6e6e6; }
+
+.c-channel_name__text--inline { color: #e6e6e6; }
+
+.c-virtual_list__item { background: #303030; }
+
+.c-message_kit__background { background: #303030; }
+
+.p-threads_view_root { background: #303030; }
+
+.c-message_kit__message { background: #303030; }
+
+.c-message_kit__thread_message { background: #303030; }
+
+.c-message_kit__thread_message--root { background: #303030; }
+
+.p-threads_view { background: #303030; }
+
+.p-threads_view__default_background { background: #303030; }
+
+.p_threads_view_load_older_button { background: #303030; }
+
+.c-message_kit__background { background: #303030; }
+
+.c-message_kit__message { background: #303030; }
+
+.c-message_kit__thread_message { background: #303030; }
+
+.p-threads_view_reply { background: #303030; }
+
+div.p-message_input_field.c-texty_input--multi_line.c-texty_input.ql-container { background: #303030; }
+
+div.ql-editor { background: #303030; }
+
