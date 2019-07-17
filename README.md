@@ -15,7 +15,7 @@ vim app/dist/ssb-interop.bundle.js
 Once the file is open, hit the 'end' key and then the 'i' key. Enter this:
 ```
 document.addEventListener('DOMContentLoaded', function() {    
-  fetch('https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css')    
+  fetch('https://github.com/valiander/slackdark/blob/master/master.css')    
   .then(function(response) {
     return response.text();
   })
