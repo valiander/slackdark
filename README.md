@@ -1,6 +1,6 @@
 # This project will set your Mac OS Slack theme to dark/night mode
 
-#4.0.0 Instructions
+# 4.0.0 Instructions
 You will have to essentially change the structure of slack to imbed a new file that they removed.
 After 4.0.0 is installed, close slack and follow these commands:
 ```
@@ -33,7 +33,7 @@ asar pack app app.asar
 sudo cp app.asar /Applications/Slack.app/Contents/Resources
 open /Applications/Slack.app
 ```
-#Previous to 4.0.0
+# Previous to 4.0.0
 
 To start, always make sure your file is clean and not modified.
 Paste this into your command prompt:
